@@ -1,0 +1,4 @@
+gcc -o filename filename.c
+
+to run 
+./filename

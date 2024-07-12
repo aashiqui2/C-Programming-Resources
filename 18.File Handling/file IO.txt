@@ -1,0 +1,8 @@
+volitile and non volatile memeory
+
+modes :
+r and rb mode is used to read the specific file but if the file is not exist it store NULL in the pointer
+
+w and wb mode is used to write data in the specific file , it the file is not exist it creates a file automatically, nad it already exist it erases all the data inside it.
+
+to add it we can use the mode a (append)
