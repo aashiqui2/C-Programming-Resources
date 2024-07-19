@@ -40,7 +40,6 @@ void main()
     strcpy(s.name, "C programming");
     printf("\nname: %s\n", s.name);
 
-    // difference four
     printf("\nAltering a member value:\n");
     s.integer = 1218;
     printf("structure data:\n integer: %d\n "

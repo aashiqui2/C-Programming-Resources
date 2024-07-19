@@ -29,6 +29,5 @@ int main()
     printf("%u\n",&ptr2);
     printf("%u\n",*ptr2);
     printf("%u\n",a);
-return 0;
     return 0;
 }

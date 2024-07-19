@@ -7,7 +7,7 @@ struct student
     int roll;
     float cgpa;
 };
-void printInfo(struct student s1);
+void printInfo(struct student);
 int main()
 {
     struct student s1 = {"aashiqui", 1664, 7.9};

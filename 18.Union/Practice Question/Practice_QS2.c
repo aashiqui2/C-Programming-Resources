@@ -1,3 +1,4 @@
+#include<stdio.h>
 union Value
 {
     int intValue;

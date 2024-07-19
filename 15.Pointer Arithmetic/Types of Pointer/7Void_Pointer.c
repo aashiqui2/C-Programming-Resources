@@ -23,7 +23,7 @@ int main()
     printf("%d\n", cp);
     printf("%d\n", fp);
     
-    printf("-------Value of pointers---------\n");
+    // printf("-------Value of pointers---------\n");
     // Dereferencing NULL pointers will cause a segmentation fault
     // Uncommenting the following lines will result in a crash
     // printf("%d\n", *(char *)ptr);
