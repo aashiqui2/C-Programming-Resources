@@ -24,7 +24,7 @@ int main()
     // int *j;
     // j=&i;
     // j++;
-    // printf("%d",*j);
+    // printf("%d",*j);//garbage value
 
     // char *ptr="hello";
     // char a[22];

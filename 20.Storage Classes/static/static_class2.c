@@ -1,10 +1,11 @@
 #include<stdio.h>
-static int x;
+// static int x;
+// int x;
 void display();
 void main(){
     display();
     display();
-    printf("%d",x);
+    //printf("%d",x);//undeclared
 }
 void display(){
     static int x;//This statement is skipped it only executed only once 

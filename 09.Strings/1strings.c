@@ -1,12 +1,12 @@
-#include<stdio.h>
-int main()
-{
+// #include<stdio.h>
+// int main()
+// {
 
-char name[]={'A','A','S','H','I','Q','U','I','\0'};
-char name1[]="Aashiqui"; //automatic null character will be added by c compiler
-printf("%s",name1);
-return 0;
-}
+// char name[]={'A','A','S','H','I','Q','U','I','\0'};
+// char name1[]="Aashiqui"; //automatic null character will be added by c compiler
+// printf("%s",name1);
+// return 0;
+// }
 
 // #include <stdio.h>
 // int main()
@@ -18,3 +18,14 @@ return 0;
 // 	}
 // 	return 0;
 // }
+
+#include <stdio.h>
+int main()
+{
+	char *arr = "hello";
+	int i = 0;
+	while (arr[i]) {
+		printf("%c", arr[i++]);
+	}
+	return 0;
+}

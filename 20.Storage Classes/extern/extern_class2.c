@@ -1,4 +1,3 @@
-#include<stdio.h>
 void display(){
     extern int x;
     x++;
