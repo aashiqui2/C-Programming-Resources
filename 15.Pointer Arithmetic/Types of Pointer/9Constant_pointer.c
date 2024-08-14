@@ -8,3 +8,4 @@ int main()
     printf("Constant Pointer: %d\n", *ptr);
     return 0;
 }
+//! constant pointer *const we can change it value but we canot change its address

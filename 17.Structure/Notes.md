@@ -67,3 +67,10 @@ However, due to alignment, the size might be rounded up to 24 bytes to ensure th
 ### Summary
 
 Padding ensures that each data member is aligned according to its alignment requirements, which improves performance and prevents potential issues with misaligned memory access. This padding increases the total size of the `struct` beyond the sum of its individual members.
+
+
+# Processor doesn't read 1byte at atime from memory.
+# it rears  1 word at a time.
+
+if we have a 32bit processor then it  means it can access 4 bytes at a time which means word size is 4 bytes.
+if we have a 64bit processor then it  means it can access 8 bytes at a time which means word size is 8 bytes.

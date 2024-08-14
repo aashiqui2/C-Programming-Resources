@@ -1,12 +1,6 @@
 // used to create alias(nickname) for datatype
 #include<stdio.h>
 #include<string.h>
-typedef struct Student
-{
-    int roll;
-    float cgpa;
-    char name[100];
-} stu;
 typedef struct ComputerEngineeringnStudent 
 {
     int roll;

@@ -18,7 +18,7 @@ return 0;
 }
 struct student *createStruct(char name[],int rollno,int mark)
 {
-    static struct student s;//we need to declare it as static reason when the method is over the sapce will be deallocated
+    static struct student s;//we need to declare it as static reason when the method is over the space will be deallocated
     strcpy(s.name,name);
     s.rollno=rollno;
     s.mark=mark;

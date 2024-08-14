@@ -9,3 +9,4 @@ int main() {
     printf("Pointer to Constant: %d\n", *ptr); // Prints the value of y
     return 0;
 }
+//! in Ponter to constant we can change its address but we cannot change its value

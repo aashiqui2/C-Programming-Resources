@@ -33,7 +33,7 @@ int main()
 
     // char *ptr="hello";
     // char a[22];
-    // // *ptr="world";//we can only assign only char not
+    // // *ptr="world"; //we can only assign only char not
     // printf("%c\n",*ptr);//h
     // printf("%s\n",ptr);//hello
     // printf("%s %s",ptr, a);
