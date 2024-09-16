@@ -10,9 +10,9 @@ int main()
 
 	printf("Printing value of Integer Constant: %d\n", int_const);
 	printf("Printing value of Character Constant: %c\n", char_const);
-	printf("Printing value of Float Constant: %f", float_const);
+	printf("Printing value of Float Constant: %f\n", float_const);
 
-	const int var = 10;
+	const int var = 10; // C allows direct pointer manipulation 
 	printf("Initial Value of Constant: %d\n", var);
 
 	int *ptr = &var;
