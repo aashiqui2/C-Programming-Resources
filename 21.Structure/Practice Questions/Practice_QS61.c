@@ -19,8 +19,10 @@ int main()
 
     printf("\nEnter roll no: ");
     scanf("%d", &s[i].roll_number);
+
     printf("\nEnter class: ");
     scanf("%s", s[i].Class);
+
     for (int j = 0; j < 5; j++)
     {
       printf("\nEnter the marks in subject %d (out of 100): ", j + 1);
@@ -33,8 +35,7 @@ int main()
   printf("Name\t\tRoll no\t\t\tClass\t\t\t\tMarks\n");
   for (int i = 0; i < 1; i++)
   {
-    printf("%s\t\t%d\t\t\t%s\t\t",
-           s[i].name, s[i].roll_number, s[i].Class);
+    printf("%s\t\t%d\t\t\t%s\t\t",s[i].name, s[i].roll_number, s[i].Class);
     for (int j = 0; j < 5; j++)
     {
       printf("%.2f\t", s[i].marks[j]);

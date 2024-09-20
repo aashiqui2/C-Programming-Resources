@@ -1,4 +1,4 @@
-//write a program that takes input form user's name and print its length.
+//! write a program that takes input form user's name and print its length.
 #include<stdio.h>
 int countLength(char arr[]);
 int main()

@@ -1,4 +1,4 @@
-// create a structure to store complex numbers(use arrow operator)
+//! create a structure to store complex numbers(use arrow operator)
 #include <stdio.h>
 struct complex
 {

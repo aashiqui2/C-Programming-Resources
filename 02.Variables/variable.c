@@ -14,8 +14,10 @@ int main()
 	int $c=2;
 	int _d=3;
 	int _e_21=4;
+	int _=12;
 	printf("%d\n",$c);
 	printf("%d\n",_d);
 	printf("%d\n",_e_21);
+	printf("%d\n",_);
 	return 0;
 }

@@ -2,10 +2,10 @@
 #include <stddef.h>  // For offsetof macro
 
 struct student {
+    double d;       // 8 bytes (typically)
     int a;          // 4 bytes (typically)
     char b;         // 1 byte
     float c;        // 4 bytes (typically)
-    double d;       // 8 bytes (typically)
     char e[20];     // 20 bytes
 };
 

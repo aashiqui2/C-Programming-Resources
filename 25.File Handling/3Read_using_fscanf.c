@@ -11,8 +11,8 @@ int main()
     // int ch;
     // int a, b, c;
     // ch = fscanf(fptr, "%d %d %d", &a, &b, &c); //! it returns the number of input items converted and assigned
-    // printf("%d",ch);
-    // printf("%d %d %d", a, b, c);
+    // printf("%d\n",ch);
+    // printf("%d %d %d\n", a, b, c);
 
     // int num;
     // float decimal;
@@ -28,7 +28,7 @@ int main()
     //     printf("Error reading data!\n");
     // }
 
-    //! if the input has charcter to read need to specify proper frmat specifier
+    //! if the input has charcter to read need to specify proper format specifier
     // int a;
     // float b;
     // char c[10];
@@ -39,12 +39,12 @@ int main()
     //     printf("String: %s\n", c);
     // }
 
-    char ch;
-    while(fscanf(fptr, "%c", &ch)!=EOF)
-    {
-    printf("The character %c\n", ch);
-    }
-    
+    // char ch;
+    // while(fscanf(fptr, "%c", &ch)!=EOF)
+    // {
+    // printf("The character %c\n", ch);
+    // }
+
     fclose(fptr);
     return 0;
 }

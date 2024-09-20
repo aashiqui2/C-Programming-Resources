@@ -1,4 +1,4 @@
-// take a string input from the user using %c?
+//! take a string input from the user using %c?
 
 #include<stdio.h>
 int main()

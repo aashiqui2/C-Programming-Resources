@@ -12,8 +12,6 @@ int main(){
     printf("name is %s\n",s1.name);
     printf("rollno is %d\n",s1.rollno);
     printf("mark is %d\n",s1.mark);
-
-    
 return 0;
 }
 struct student createStruct(char name[],int rollno,int mark)

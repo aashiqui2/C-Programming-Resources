@@ -9,7 +9,7 @@ int main()
         return 1;
     }
     // char c[100];
-    // if (fgets(c, sizeof(c), fptr) != NULL)//!read only the single line nad return an pointer
+    // if (fgets(c, sizeof(c), fptr) != NULL)//!read only the single line and return an pointer
     // {
     //     printf("%s\n", c);
     // }

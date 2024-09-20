@@ -1,4 +1,4 @@
-// check if the character is present in a string or not
+//! check if the character is present in a string or not
 #include <stdio.h>
 #include<stdbool.h>
 bool checkChar(char str[], char ch);

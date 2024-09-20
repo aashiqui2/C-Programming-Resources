@@ -73,3 +73,30 @@ Argument 3: arg3
 - **Automation**: Use command line arguments to automate the execution of scripts and programs with different parameters.
 
 By using command line arguments, you can make your programs more flexible and user-friendly.s
+
+When running a C program that uses command-line arguments:
+
+- **`argc`**: Counts the number of command-line arguments, including the program name.
+- **`argv`**: An array of strings where `argv[0]` is the program name and the rest are the arguments you pass.
+
+**Example Output**:
+
+- **No Arguments Passed**:
+  ```
+  Number of arguments: 1
+  Argument 0: ./program
+  ```
+
+- **With Arguments**:
+  ```
+  ./program arg1 arg2
+  ```
+  Output:
+  ```
+  Number of arguments: 3
+  Argument 0: ./program
+  Argument 1: arg1
+  Argument 2: arg2
+  ```
+
+The program always reports at least one argument because the program name is included.

@@ -1,10 +1,12 @@
 #include <stdio.h>
+static int b=20;
 int func();
 int main()
 {
     printf("%d", func());
     printf("\n%d", func());
     printf("\n%d", func());
+    printf("\n%d ",b);// we can have static varibale in global declaration part
 
     //static variables only alive in block scope
     // printf("%d",count);
@@ -17,17 +19,3 @@ int func()
     return count;
 }
 
-// #include <stdio.h>  
-// int main()  
-// {  
-//    printf("%d",func());  
-//    printf("\n%d",func());  
-  
-//     return 0;  
-// }  
-// int func()  
-// {  
-//     static int count=0;  
-//     count++;  
-//     return count;  
-// }  

@@ -13,17 +13,17 @@ int main()
 
     union student s1;
 
-    // we cannot assign all the union member at a time
+    //? we cannot assign all the union member at a time
     // strcpy(s1.name, "arun");
     // s1.rollno = 38;
-    // s1.cgpa = 2.3;
+    s1.cgpa = 2.3;
 
-    // we cannot access all the member at a time in union
+    //? we cannot access all the member at a time in union and we need to assign it one by one
     // printf("the name is %s\n",s1.name);
     // printf("the rollno is %s\n",s1.rollno);
     // printf("the cgpa is %s\n",s1.cgpa);
 
-    // we acn access only one union member at a time
+    //? we can access only one union member at a time
     s1.rollno = 38;
     printf("the rollno is %d\n", s1.rollno);
     strcpy(s1.name,"hello");
@@ -34,4 +34,4 @@ int main()
     return 0;
 }
 
-// In union , members will share smae memory location. if we make any chnages in one memebr then it will be refelected to other memebr as well
+//? In union , members will share same memory location. if we make any chnages in one memebr then it will be refelected to other memebr as well

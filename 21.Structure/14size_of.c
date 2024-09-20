@@ -7,7 +7,7 @@
 // }var;
 
 // int main(){
-//     // printf("%d",sizeof(struct abc));
+    // printf("%d",sizeof(struct abc));
 //     printf("%d",sizeof(var));
     
 // return 0;

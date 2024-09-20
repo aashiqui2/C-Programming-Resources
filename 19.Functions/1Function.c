@@ -12,7 +12,7 @@ void printHello()
     printf("Hello World");
 }
 
-// or we can do like this
+//? or we can do like this
 
 // #include<stdio.h>
 // void printHello()

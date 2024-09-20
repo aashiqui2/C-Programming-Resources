@@ -15,6 +15,5 @@ int main()
     printf("Student roll %d\n", ptr->roll);
     printf("Student name %s\n", ptr->name);
     printf("Student cgpa %.1f\n", ptr->cgpa);
-
     return 0;
 }

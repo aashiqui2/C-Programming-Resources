@@ -1,4 +1,4 @@
-// create a structure to store vectors.  then make a fuction to return sum of 2 vectors.
+//! create a structure to store vectors.  then make a fuction to return sum of 2 vectors.
 #include <stdio.h>
 struct vector
 {

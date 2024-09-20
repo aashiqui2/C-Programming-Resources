@@ -1,5 +1,4 @@
-
-//write a program to print the string character by character?
+//! write a program to print the string character by character?
 #include <stdio.h>
 void printString(char arr[]);
 int main()

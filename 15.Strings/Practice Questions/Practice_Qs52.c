@@ -1,4 +1,4 @@
-//  write a function named slice ,which takes a string  & return a sliced string from index n to m.
+//!  write a function named slice ,which takes a string  & return a sliced string from index n to m.
 #include <stdio.h>
 void slice(char str[], int n, int m);
 int main()
@@ -16,7 +16,7 @@ void slice(char str[], int n, int m)
     // char newStr[200];
     char newStr[m-n+2];//to calculate size
     int j=0;
-    for(int i=n;i<=m; i++,j++)
+    for(int i=n;i<m; i++,j++)
     {
         newStr[j]=str[i];
     }

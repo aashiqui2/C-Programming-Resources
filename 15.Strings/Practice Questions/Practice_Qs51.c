@@ -1,4 +1,4 @@
-// find the salted form of a password entered by the user if the salt is  "123" & added at the end.
+//! find the salted form of a password entered by the user if the salt is  "123" & added at the end.
 #include <stdio.h>
 #include<string.h>
 void salting(char password[]);

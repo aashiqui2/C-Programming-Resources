@@ -7,7 +7,7 @@ int main()
     auto int x = 10;
     {
         auto int x;
-        printf("%d\n", x);
+        printf("%d\n", x);//garbage value
     }
     printf("%d\n",x);
     return 0;

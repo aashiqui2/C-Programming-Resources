@@ -1,5 +1,4 @@
-// write a function to count the occurence of Vowels in a string?
-
+//! write a function to count the occurence of Vowels in a string?
 #include<stdio.h>
 int countVowels(char str[]);
 int main()

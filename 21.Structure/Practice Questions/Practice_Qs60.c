@@ -1,9 +1,10 @@
-// make a structure to store the Bank Account information  of a customer of ABC Bank Also,make ana alias for it.
+//! make a structure to store the Bank Account information  of a customer of ABC Bank Also,make an alias for it.
 #include <stdio.h>
 typedef struct BankAccount
 {
     int accno;
-    char name[100];
+    // char name[100];
+    char *name;
 
 } acc;
 int main()

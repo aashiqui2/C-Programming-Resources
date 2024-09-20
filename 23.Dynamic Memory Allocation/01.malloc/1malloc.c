@@ -3,7 +3,7 @@
 int main()
 {
     float *ptr;
-    ptr = (float *)malloc(5 * sizeof(float)); // return a void so we type caste iusing (int *)
+    ptr = (float *)malloc(5 * sizeof(float)); // return a void so we type caste it using (int *)
     // memory is allocated on runtime
     ptr[0] = 1.02;
     ptr[1] = 3.34;

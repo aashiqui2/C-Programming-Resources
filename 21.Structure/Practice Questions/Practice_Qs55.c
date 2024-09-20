@@ -1,4 +1,4 @@
-//write a program to store the data of 3 students
+//! write a program to store the data of 3 students
 #include<stdio.h>
 #include<string.h>
 struct student

@@ -17,7 +17,8 @@ int main()
     return 0;
 }
 // when passing structure a copy is passed not the original structure is passed, so two structure created
-//call by value,
+
+//?call by value,
 void printInfo(struct student s1)
 {
     printf("Student Information :\n");
