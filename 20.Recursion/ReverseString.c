@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-void printReverse(char *s,int index)
+void printReverse(char s[],int index)
 {
     if(index==0)
     {

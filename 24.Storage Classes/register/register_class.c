@@ -7,10 +7,10 @@ int main(){
     // }
     // printf("%d\n",sum);
   
-  //? these is not posible we cannot access the address of the cpu register variables
+  //? these is not possible we cannot access the address of the cpu register variables
     /* int *ptr=&i;
     printf("%u",*ptr);
-    printf("%u",ptr);*/
+    printf("%u",ptr); */
 
     int a=2;
     register int *ptr=&a;
